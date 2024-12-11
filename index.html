@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fitness gym</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueary.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <div class="logo">
+          <img src="img/logo-nav.png" alt="" />
+          <a href="">BEROTOT</a>
+        </div>
+        <div class="nav-link">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#choose">Choose Us</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </div>
+        <div class="nav-btn">
+          <button>Register Now</button>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">
+          <img src="img/favicon.png" alt="" />
+          <a href="">BEROTOT</a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#home" onclick="togglemenu()">Home</a></li>
+            <li><a href="#program" onclick="togglemenu()">Program</a></li>
+            <li><a href="#choose" onclick="togglemenu()">Choose Us</a></li>
+            <li><a href="#pricing" onclick="togglemenu()">Pricing</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="section-one">
+        <div class="sec-one-card" data-aos="fade-down" data-aos-duration="3000">
+          <h1>MAKE YOUR</h1>
+          <h2>BODY SHAPE</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptate numquam illum ducimus perspiciatis facilis!
+            Sapiente quibusdam voluptates nostrum tempora minima.
+          </p>
+          <button>Get Started <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="sec-one-card-img">
+          <img src="img/home-img.png" data-aos="fade-up"data-aos-duration="3000" alt="" />
+        </div>
+      </section>
+      <section id="section-two">
+        <div class="company-logo" id="program">
+          <img src="img/logo1.png" alt="" />
+          <img src="img/logo2.png" alt="" />
+          <img src="img/logo3.png" alt="" />
+          <img src="img/logo4.png" alt="" />
+        </div>
+        <div class="sec-two-program-title">
+          <h2>Our Program</h2>
+          <h1>BUILD YOUR BEST BODY</h1>
+        </div>
+        <div class="sec-two-program-card"data-aos="fade-down-right" data-aos-duration="2000">
+          <div class="card-one">
+            <div class="card-one-img">
+              <img src="img/program1.png" alt="" />
+            </div>
+            <h3>Flex Muscle</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              quae in sequi ab odit, debitis sit ad culpa mollitia
+              doloremque?Lorem ipsum dolor.
+            </p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="card-two">
+            <div class="card-one-img">
+              <img src="img/program2.png" alt="" />
+            </div>
+            <h3>Flex Muscle</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              quae in sequi ab odit, debitis sit ad culpa mollitia
+              doloremque?Lorem ipsum dolor.
+            </p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="card-three">
+            <div class="card-one-img">
+              <img src="img/program3.png" alt="" />
+            </div>
+            <h3>Flex Muscle</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              quae in sequi ab odit, debitis sit ad culpa mollitia
+              doloremque?Lorem ipsum dolor.
+            </p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div class="card-four">
+            <div class="card-one-img">
+              <img src="img/program4.png" alt="" />
+            </div>
+            <h3>Flex Muscle</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+              quae in sequi ab odit, debitis sit ad culpa mollitia doloremque?
+              Lorem ipsum dolor.
+            </p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+      <section id="section-three" >
+        <div class="choose-us-img" id="choose">
+          <img src="img/choose-img.png" alt="" />
+        </div>
+        <div class="choose-us-info" data-aos="fade-left"data-aos-duration="3000">
+          <h2>Best Reason</h2>
+          <h1>WHY CHOOSE US ?</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+            corporis assumenda iste alias quam asperiores.
+          </p>
+            <div class="counter-up">
+              <div class="content">
+                <div class="box">
+                  <div class="icon"><i class="fas fa-history"></i></div>
+                  <div class="counter">724</div>
+                  <div class="text">Working Hours</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fas fa-gift"></i></div>
+                  <div class="counter">508</div>
+                  <div class="text">Completed Projects</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fas fa-users"></i></div>
+                  <div class="counter">436</div>
+                  <div class="text">Happy Clients</div>
+                </div>
+                <div class="box">
+                  <div class="icon"><i class="fas fa-award"></i></div>
+                  <div class="counter">120</div>
+                  <div class="text">Awards Received</div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <section id="section-four">
+        <div class="special-info" id="pricing">
+          <h2>Pricing</h2>
+          <h1>OUR SPECIAL PLAN</h1>
+        </div>
+        <div class="special-card" data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">
+          <div class="special-card-one">
+            <div class="special-img">
+              <img src="img/pricing1.png" alt="" />
+            </div>
+            <h3>BASIC PACKAGE</h3>
+            <h2>$120</h2>
+            <ul>
+              <li><input type="checkbox" />5 Days in A Week</li>
+              <li><input type="checkbox" />01 Sweatshirt</li>
+              <li><input type="checkbox" />01 Bottle of Protein</li>
+              <li><input type="checkbox" />Access to Videos</li>
+              <li><input type="checkbox" />Muscle Stretching</li>
+            </ul>
+            <button>
+              Purchase Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="special-card-two">
+            <div class="special-img">
+              <img src="img/pricing2.png" alt="" />
+            </div>
+            <h3>BASIC PACKAGE</h3>
+            <h2>$120</h2>
+            <ul>
+              <li><input type="checkbox" />5 Days in A Week</li>
+              <li><input type="checkbox" />01 Sweatshirt</li>
+              <li><input type="checkbox" />01 Bottle of Protein</li>
+              <li><input type="checkbox" />Access to Videos</li>
+              <li><input type="checkbox" />Muscle Stretching</li>
+            </ul>
+            <button>
+              Purchase Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="special-card-three">
+            <div class="special-img">
+              <img src="img/pricing3.png" alt="" />
+            </div>
+            <h3>BASIC PACKAGE</h3>
+            <h2>$120</h2>
+            <ul>
+              <li><input type="checkbox" />5 Days in A Week</li>
+              <li><input type="checkbox" />01 Sweatshirt</li>
+              <li><input type="checkbox" />01 Bottle of Protein</li>
+              <li><input type="checkbox" />Access to Videos</li>
+              <li><input type="checkbox" />Muscle Stretching</li>
+            </ul>
+            <button>
+              Purchase Now <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+      <section id="section-five">
+        <div class="count-card"data-aos="fade-right" data-aos-duration="3000">
+          <h1>CALCULATE YOUR BMI</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ab nemo iusto corrupti sequi earum velit officiis nulla obcaecati possimus.</p>
+          <input type="number" placeholder="Height">
+          <input type="number" placeholder="weight">
+          <div class="btn">
+          <button>Calculate Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        </div>
+        <div class="image" data-aos="fade-left"data-aos-duration="3000">
+          <img src="img/calculate-img.png" alt="">
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <div class="nav-img">
+        <img src="img/favicon.png" alt="">
+        <a href="">BEROTOT</a>
+      </div>
+        <p>Subcribe for company updates below.</p>
+        <input type="text" placeholder="Your Email">
+        <button>Subscribe</button>
+      </ul>
+      <ul >
+        <h2>SERVICES</h2>
+        <li>Flex Muscle</li>
+        <li>Cardio Exercise</li>
+        <li>Basic yoga</li>
+        <li>Weight Lifting</li>
+      </ul>
+      <ul>
+        <h2>PRICING</h2>
+        <li>Basic</li>
+        <li>Premium</li>
+        <li>Diamond</li>
+        <li>Sitemap</li>
+      </ul>
+      <ul>
+        <h2>COMPANY</h2>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Customers</li>
+        <li>Partners</li>
+      </ul>
+    </footer>
+    <div class="contact-icon">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <div class="pera">
+      <p>
+        Copyright <i class="fa-regular fa-copyright"></i> to 2024 Discode | All
+        rights reserved
+      </p>
+    </div>
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1200,
+        });
+      });
+    </script>
+    
+
+      
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
