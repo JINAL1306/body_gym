@@ -195,8 +195,14 @@ letter-spacing: 3px;
   display: flex;
   gap: 10px;
 }
+.sec-one-card i {
+  padding-top: 5px;
+
+}
+
 .sec-one-card button:hover i {
-  margin-left: 10px;
+  transform:translate(7px);
+  transition: all 300ms;
 }
 /* ======SECTION-TWO====== */
 #section-two {
@@ -267,6 +273,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 25px;
   color: transparent;
 }
+.card-one i:hover {
+transform: translate(10px);
+transition: all 300ms;
+}
 .card-one:hover {
   background-color: greenyellow;
   color: black;
@@ -319,6 +329,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   .card-two:hover i {
     color: black;
   }
+  .card-two i:hover {
+    transform: translate(10px);
+    transition: all 300ms;
+    }
   /* ======card-three====== */
   .sec-two-program-card .card-three {
     width: 270px;
@@ -360,6 +374,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .card-three:hover i {
       color: black;
     }
+    .card-three i:hover {
+      transform: translate(10px);
+      transition: all 300ms;
+      }
   
   /* ======card-four====== */
   .sec-two-program-card .card-four {
@@ -404,6 +422,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     .card-four:hover i {
       color: black;  
     }
+    .card-four i:hover {
+      transform: translate(10px);
+      transition: all 300ms;
+      }
     /* =====section-three====== */
     #section-three {
       display: flex;
@@ -455,10 +477,10 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       z-index: 1;
       position: relative;
       display: flex;
+      flex-wrap: wrap;
       flex-direction: column;
       width: 40%;
       height: 100%;
-      flex-wrap: wrap;
       align-items: center;
       gap: 20px;
       justify-content: space-around;
@@ -565,6 +587,15 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-size: 20px;
   margin-top: 20px;
 }
+.special-card .special-card-one:hover {
+background-color: greenyellow;
+color: black;
+}
+.special-card-one i:hover {
+transform: translate(10px);
+transition: all 500ms;
+}
+
 /* ======= special-card-two========== */
 .special-card .special-card-two {
   height: 550px;
@@ -616,6 +647,15 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-size: 20px;
   margin-top: 20px;
 }
+.special-card .special-card-two:hover {
+  background-color:rgb(44, 47, 45);
+  color:white;
+  border: none;
+  }
+  .special-card-two i:hover {
+  transform: translate(10px);
+  transition: all 500ms;
+  }
 /* ======= special-card-three========== */
 .special-card .special-card-three {
   height: 550px;
@@ -664,6 +704,15 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-size: 20px;
   margin-top: 20px;
 }
+.special-card .special-card-three:hover {
+  background-color:greenyellow;
+  color:black;
+  }
+  .special-card-three i:hover {
+  transform: translate(10px);
+  transition: all 500ms;
+  }
+
 /* =======section-five======== */
 #section-five {
   display: flex;
