@@ -198,12 +198,15 @@ letter-spacing: 3px;
 }
 .sec-one-card i {
   padding-top: 5px;
-
+}
+.sec-one-card i:hover {
+transform: translate(10px);
+transition: all 300ms;
 }
 
-.sec-one-card button:hover i {
-  margin-left: 10px;
-}
+
+
+
 /* ======SECTION-TWO====== */
 #section-two {
   margin-top: 50px;
@@ -407,7 +410,6 @@ transition: all 300ms;
     }
     .card-four p {
       margin-top: 10px;
-      /* color: rgb(156, 163, 161); */
 
     }
     .card-four i {
